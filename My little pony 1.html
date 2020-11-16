@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My little pony : Main six</title>
+	<style type="text/css">
+	body{
+		/*background-repeat: no-repeat;*/
+		background-size: 100%;
+}
+p{
+	text-align: justify;
+	padding-right: 1000px;
+	/*padding-left: 300px;*/
+	font-size: 15px;
+}
+#sidebar{
+			height: 100%;
+			width:0;
+			position:fixed;
+			overflow: hidden;
+			background-color: black;
+			padding-top: 50px;
+		}
+		a{
+		text-decoration: none;
+		font-size: 25px;
+		color: white;
+		display: block;
+		padding: 15px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	a:hover{
+		color: grey;
+	}
+	#closebtn{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		font-size: 35px;
+	}
+	#openbtn{
+		font-size: 20px;
+		background-color: black;
+		color: white;
+		padding: 10px;
+		cursor: pointer;
+	}
+</style>
+</head>
+<body background="Friends.jpg">
+<h1>My little pony</h1>
+<p>We are going to learn about the main six</p>
+<div id="sidebar">
+  	<a href="" onclick="closenav()" id="closebtn">x</a>
+  	<a href="file:///C:/Users/SONY/Desktop/My%20little%20pony/My%20little%20pony%202.html">My little pony2</a>
+  	<a href="file:///C:/Users/SONY/Desktop/My%20little%20pony/My%20little%20pony%203.html">My little pony3</a>
+  	<a href="file:///C:/Users/SONY/Desktop/My%20little%20pony/My%20little%20pony%204.html">My little pony4</a>
+  	<a href="file:///C:/Users/SONY/Desktop/My%20little%20pony/My%20little%20pony%20movie.html">My little pony movie</a>
+  </div>
+  <div id="main_content">
+  	<button onclick="opennav()" id="openbtn">&#9776; Open SideBar</button>
+  	<h2>Sidebar</h2>
+  	<p>We are learning about Sidenav</p>
+  </div>
+<script type="text/javascript">
+	function opennav(){
+		var sidenav = document.getElementById('sidebar');
+		sidenav.style.width = "250px";
+		var content = document.getElementById("main_content");
+		content.style.marginLeft="250px";
+	}
+	function closenav(){
+		var sidenav = document.getElementById('sidebar');
+		sidenav.style.width = "0px";
+		var content = document.getElementById("main_content");
+		content.style.marginLeft="0px";
+	}
+</script>
+
+<h2>Twilight Sparkle</h2>
+<p>Princess Twilight Sparkle is the central character of My Little Pony: Friendship Is Magic, based on the first generation or "G1" unicorn toy Twilight.She is depicted in the show's first three seasons as a purple unicorn with a pink-streaked indigo mane, and as a winged unicorn called an "alicorn" after the season three finale "Magical Mystery Cure". Twilight Sparkle is the current Princess of Friendship and the fourth in her nation's history to be crowned Princess of Equestria. Originally from the capital city of Canterlot, Twilight Sparkle passed the entrance exam at Princess Celestia's School for Gifted Unicorns and became the protege of Princess Celestia. After going to Ponyville to help plan the Summer Sun Celebration, Twilight was revealed to be the Element of Magic and became a founding member of the Mane Six, living a life of adventures, using "the magic of friendship" in both defeating and mentoring redeemed villains, and helping to resolve her friends' differences.</p>
+<h2>Applejack</h2>
+<p>Applejack is an orange, hard-working earth pony with blonde hair. Her cutie mark, a trio of apples, represents her talent for agriculture and her love for her family. She is characterized as a "farm gal" who sports a cowboy hat and lasso and speaks with a Southern accent. She works as an apple farmer at the Sweet Apple Acres orchard in Ponyville, using her strength to "buck" apples out of trees. She lives with her grandmother Granny Smith, her older brother Big McIntosh, her younger sister Apple Bloom, and her pet border collie Winona. Applejack's parents – Bright Mac and Pear Butter, first seen in season seven thirteenth episode, "The Perfect Pear" – are deceased. Applejack is honest, courageous, forthright and the most "down-to-earth" of the Mane Six; being a trustworthy friend who is optimistic and has good judgement.
+</p>
+<h2>Rainbow Dash</h2>
+<p>Rainbow Dash is a blue, tomboyish pegasus with a rainbow-colored mane and tail. Her cutie mark, a rainbow-colored lightning bolt with a cloud, represents her talent for speed and her obsession with adventure. Her goal at the beginning of the series is to join her "heroes", the elite Wonderbolts aerobatic team. In season three's seventh episode, "Wonderbolts Academy", she joins the Wonderbolts as a trainee. Later, in season four's twenty-first episode, "Testing Testing 1, 2, 3", she becomes a reservist, and in season six's seventh episode, "Newbie Dash", she becomes a full-time member. She helps other pegasi manage the weather around Ponyville and spends her time practicing flight maneuvers such as the "Sonic Rainboom", a rainbow-colored sonic boom; it is shown in season one's twenty-third episode "The Cutie Mark Chronicles" that Rainbow Dash's first Sonic Rainboom as a filly caused a chain of events that produced the Mane Six's cutie marks. She lives with a propeller-fitted pet tortoise named Tank in a floating condominium of clouds called the Cloudominium, which is sparingly seen in the show because she "doesn't sit still for very long", according to director Jim Miller.</p>
+<h2>Pinkie Pie</h2>
+<p>Pinkie Pie (full name Pinkamena Diane Pie) is a pink hyperactive earth pony. Her cutie mark, a trio of balloons, represents her talent for spreading hope and joy, and her desire to entertain her friends. She is a party planner at Sugarcube Corner, a bakery and confectionery store that resembles a gingerbread house, and owns a toothless pet alligator named Gummy. A comic relief character who was raised on a "dreary rock farm", Pinkie is defined as a "hard worker" motivated in seeing people she loves smile and relieving them of stress, by randomly throwing parties and acting as outlandish as possible; but has a lack of confidence and a fear of being rejected by others.</p>
+<h2>Rarity</h2>
+<p>Rarity is a white glamorous unicorn with a curled violet mane. Her cutie mark, a trio of diamonds, represents her talent for prospecting gemstones and her love of art and beauty. She is a ladylike fashionista and businessperson who speaks with a Mid-Atlantic accent and runs a franchise of brand name flagship stores throughout Equestria; she operates out of an haute couture salon in Ponyville called Carousel Boutique. Despite her arrogant and melodramatic tendencies, she has a generous spirit and strives to create dresses that capture their wearers' inner beauty. She owns a pet Persian cat named Opalescence who is commonly nicknamed Opal, and has a younger sister named Sweetie Belle.</p>
+<h2>Fluttershy</h2>
+<p>Fluttershy is a yellow shy and timid pegasus with pink hair. Her cutie mark, a trio of butterflies, represents her talent as an animal caretaker and her love for nature. True to her name, she is defined by her "shy sweetness; soft, whispery voice; and tender, nurturing nature", as described by author Begin.</p>
+</body>
+</html>
